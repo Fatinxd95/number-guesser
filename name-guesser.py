@@ -45,7 +45,7 @@ def settings():
 
     # Ask player to set points for correct/incorrect guesses and the lowest & highest numbers in the guessing range
     score_per_correct_answer = int(input("Enter how many points the player gets after each correct guess(default is 5): "))
-    score_taken_away_per_wrong_answer = int(input("Enter how many points the player loses after each wrong guess(default is 0): "))
+    score_taken_away_per_wrong_answer = int(input("Enter how many points the player loses after each wrong guess(default is 1): "))
     first = int(input("Enter the lowest number in the guessing range(default is 1): "))
     second = int(input("Enter the highest number in the guessing range(default is 10): "))
 
